@@ -8,8 +8,10 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 #include <IOKit/hidsystem/IOHIDLib.h>
 #include <IOKit/hidsystem/IOHIDParameter.h>
+#include <IOKit/hidsystem/event_status_driver.h>
 
 int main(int argc, char **argv)
 {
