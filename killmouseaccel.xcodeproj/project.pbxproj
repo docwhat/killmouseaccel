@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75D7C9851428CB5500D8FD1D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7C9841428CB5500D8FD1D /* CoreFoundation.framework */; };
+		75D7C9881428CB5500D8FD1D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C9871428CB5500D8FD1D /* main.c */; };
+		75D7C98A1428CB5500D8FD1D /* killmouseaccel.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75D7C9891428CB5500D8FD1D /* killmouseaccel.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75D7C97E1428CB5500D8FD1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				75D7C98A1428CB5500D8FD1D /* killmouseaccel.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75D7C9801428CB5500D8FD1D /* killmouseaccel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = killmouseaccel; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D7C9841428CB5500D8FD1D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		75D7C9871428CB5500D8FD1D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		75D7C9891428CB5500D8FD1D /* killmouseaccel.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = killmouseaccel.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D7C97D1428CB5500D8FD1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7C9851428CB5500D8FD1D /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D7C9751428CB5400D8FD1D = {
+			isa = PBXGroup;
+			children = (
+				75D7C9861428CB5500D8FD1D /* killmouseaccel */,
+				75D7C9831428CB5500D8FD1D /* Frameworks */,
+				75D7C9811428CB5500D8FD1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75D7C9811428CB5500D8FD1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C9801428CB5500D8FD1D /* killmouseaccel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D7C9831428CB5500D8FD1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C9841428CB5500D8FD1D /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D7C9861428CB5500D8FD1D /* killmouseaccel */ = {
+			isa = PBXGroup;
+			children = (
+				75D7C9871428CB5500D8FD1D /* main.c */,
+				75D7C9891428CB5500D8FD1D /* killmouseaccel.1 */,
+			);
+			path = killmouseaccel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D7C97F1428CB5500D8FD1D /* killmouseaccel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D7C98D1428CB5500D8FD1D /* Build configuration list for PBXNativeTarget "killmouseaccel" */;
+			buildPhases = (
+				75D7C97C1428CB5500D8FD1D /* Sources */,
+				75D7C97D1428CB5500D8FD1D /* Frameworks */,
+				75D7C97E1428CB5500D8FD1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = killmouseaccel;
+			productName = killmouseaccel;
+			productReference = 75D7C9801428CB5500D8FD1D /* killmouseaccel */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D7C9771428CB5400D8FD1D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 75D7C97A1428CB5400D8FD1D /* Build configuration list for PBXProject "killmouseaccel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75D7C9751428CB5400D8FD1D;
+			productRefGroup = 75D7C9811428CB5500D8FD1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D7C97F1428CB5500D8FD1D /* killmouseaccel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D7C97C1428CB5500D8FD1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7C9881428CB5500D8FD1D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75D7C98B1428CB5500D8FD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		75D7C98C1428CB5500D8FD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		75D7C98E1428CB5500D8FD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75D7C98F1428CB5500D8FD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D7C97A1428CB5400D8FD1D /* Build configuration list for PBXProject "killmouseaccel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7C98B1428CB5500D8FD1D /* Debug */,
+				75D7C98C1428CB5500D8FD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D7C98D1428CB5500D8FD1D /* Build configuration list for PBXNativeTarget "killmouseaccel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7C98E1428CB5500D8FD1D /* Debug */,
+				75D7C98F1428CB5500D8FD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D7C9771428CB5400D8FD1D /* Project object */;
+}
