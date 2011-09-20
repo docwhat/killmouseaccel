@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75D7C9851428CB5500D8FD1D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7C9841428CB5500D8FD1D /* CoreFoundation.framework */; };
 		75D7C9881428CB5500D8FD1D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D7C9871428CB5500D8FD1D /* main.c */; };
 		75D7C98A1428CB5500D8FD1D /* killmouseaccel.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75D7C9891428CB5500D8FD1D /* killmouseaccel.1 */; };
+		75D7C9911428CE3D00D8FD1D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7C9901428CE3D00D8FD1D /* IOKit.framework */; };
+		75D7C9931428CEA700D8FD1D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7C9921428CEA700D8FD1D /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,9 +28,10 @@
 
 /* Begin PBXFileReference section */
 		75D7C9801428CB5500D8FD1D /* killmouseaccel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = killmouseaccel; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D7C9841428CB5500D8FD1D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		75D7C9871428CB5500D8FD1D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		75D7C9891428CB5500D8FD1D /* killmouseaccel.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = killmouseaccel.1; sourceTree = "<group>"; };
+		75D7C9901428CE3D00D8FD1D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		75D7C9921428CEA700D8FD1D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D7C9851428CB5500D8FD1D /* CoreFoundation.framework in Frameworks */,
+				75D7C9931428CEA700D8FD1D /* CoreFoundation.framework in Frameworks */,
+				75D7C9911428CE3D00D8FD1D /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +67,8 @@
 		75D7C9831428CB5500D8FD1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75D7C9841428CB5500D8FD1D /* CoreFoundation.framework */,
+				75D7C9921428CEA700D8FD1D /* CoreFoundation.framework */,
+				75D7C9901428CE3D00D8FD1D /* IOKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
