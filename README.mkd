@@ -13,3 +13,11 @@ This is originally code found on http://forums3.armagetronad.net/viewtopic.php?p
 I just put it into an xcode project, removed the warnings and got it to compile.
 
 I wanted to make sure I could find this code again if I had to re-install everything.
+
+## Build with Clang
+
+If you do not want to use xcode, here is a command to compile with just the killmouseaccel/main.c source file.
+
+```
+clang -framework CoreFoundation -framework IOKit killmouseaccel/main.c -o ~/Desktop/killmouseaccel
+```
